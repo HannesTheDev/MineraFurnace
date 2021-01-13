@@ -37,8 +37,8 @@ class Main extends PluginBase
             } elseif ($item->getId() == ITEM::SAND) {
               $sender->getInventory()->setItemInHand(Item::get(ITEM::GLASS, 0, $item->getCount()));
               $sender->sendMessage($prefix . "§7You've successfully smelt §aSand §7to §aGlass§7! (§a" . $item->getCount() . "x§7)");
-            } elseif ($item->getId() == ITEM::SPONGE) {
-              $sender->getInventory()->setItemInHand(Item::get(ITEM::WET_SPONGE, 0, $item->getCount()));
+            } elseif ($item->getId() == "19:1") {
+              $sender->getInventory()->setItemInHand(Item::get(ITEM::SPONGE, 0, $item->getCount()));
               $sender->sendMessage($prefix . "§7You've successfully dried §aWet Sponge §7to §aSponge§7! (§a" . $item->getCount() . "x§7)");
             } elseif ($item->getId() == ITEM::SAND) {
               $sender->getInventory()->setItemInHand(Item::get(ITEM::GLASS, 0, $item->getCount()));
