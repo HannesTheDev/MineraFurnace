@@ -1,0 +1,11 @@
+name: MineraFurnace
+main: HannesTheDev\MineraFurnace\Main
+version: 1.0.0
+api: 3.0.0
+author: HannesTheDev
+description: "Cook, smelt or bake an item in your hand"
+
+commands:
+  furnace:
+    permission: "minera.furnace.command"
+    description: "Cook, smelt or bake a item in your hand"
