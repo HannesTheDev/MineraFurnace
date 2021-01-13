@@ -4,7 +4,7 @@ Cook, smelt, drie or bake an Item!
 ## Commands
 Commands | Description | Default | Aliases | Permissions
 --------- | ------------------- | ------- | ---------- | -----------
-/furnace | Cook, smelt, drie or bake an item in your hand| op | none | minera.furnace.command
+/furnace | Cook, smelt, drie or bake an item in your hand | op | none | minera.furnace.command
 
 ## License
 This Plugin is Licensed under the [GNU GENERAL PUBLIC LICENSE Version 3](\LICENSE) License!
