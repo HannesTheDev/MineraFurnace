@@ -21,7 +21,7 @@ This Plugin is Licensed under the [GNU GENERAL PUBLIC LICENSE Version 3](\LICENS
 - Gold Ore
 - Diamond Ore
 - Redstone Ore
-- Lapis Ore
+- Lapis Lazuli Ore
 - Emerald Ore
 - Quartz Ore
 - Coal Ore
