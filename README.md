@@ -38,6 +38,7 @@ This Plugin is Licensed under the [GNU GENERAL PUBLIC LICENSE Version 3](\LICENS
 - Raw Porkshop
 - Raw Salmon
 - Potatoe
+- Kelp
 
 ## Others
 This Plugin only based on my idea. If you copy it or you give at as yours, you'll punished!
