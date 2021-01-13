@@ -112,6 +112,9 @@ class Main extends PluginBase
             } elseif ($item->getId() == ITEM::POTATO) {
               $sender->getInventory()->setItemInHand(Item::get(ITEM::BAKED_POTATO, 0, $item->getCount()));
               $sender->sendMessage($prefix . "§7You've successfully bake §aPotato §7to §aBaked Potato§7! (§a" . $item->getCount() . "x§7)");
+            } elseif ($item->getId() == ITEM::KELP) {
+              $sender->getInventory()->setItemInHand(Item::get(ITEM::DRIED_KELP, 0, $item->getCount()));
+              $sender->sendMessage($prefix . "§7You've successfully dried §aKelp §7to §aDried Kelp§7! (§a" . $item->getCount() . "x§7)");
             } elseif ($item->getId() == ITEM::AIR){
               $sender->sendMessage($prefix . "§cYou must hold an Item in your hand!");
             } else {
