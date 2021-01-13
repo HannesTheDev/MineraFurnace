@@ -1,15 +1,10 @@
-# MineraGamemode
-A very useful plugin which you can easy switch your gamemode!
+# MineraFurnace
+Cook, smelt or bake an Item!
 
 ## Commands
 Commands | Description | Default | Aliases | Permissions
 --------- | ------------------- | ------- | ---------- | -----------
 /furnace | Cook, smelt or bake an item | op | none | minera.furnace.command
-
-## Installing
-- Installing the [phar]()
-- Load the phar into your plugin folder
-- Restart your server and ``enjoy`` the plugin 
 
 ## License
 This Plugin is Licensed under the [GNU GENERAL PUBLIC LICENSE Version 3](\LICENSE) License!
