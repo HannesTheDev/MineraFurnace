@@ -10,7 +10,7 @@ Commands | Description | Default | Aliases | Permissions
 This Plugin is Licensed under the [GNU GENERAL PUBLIC LICENSE Version 3](\LICENSE) License!
 
 ## Soon
-[] Language with switch in settings
+[ ] Language with switch in settings
 
 ## Supported Items
 - Cobblestone
