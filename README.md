@@ -41,6 +41,6 @@ This Plugin is Licensed under the [GNU GENERAL PUBLIC LICENSE Version 3](\LICENS
 
 ## Others
 This Plugin only based on my idea. If you copy it or you give at as yours, you'll punished!
-If you had any questions, an error or an spelling mistake you can conntact me on my [discord](https://discord.gg/).
+If you had any questions, an error or an spelling mistake you can conntact me on my [discord](https://discord.gg/HVvQv2TxWs).
 
 Discord Tag: HannesTheDev#2941
