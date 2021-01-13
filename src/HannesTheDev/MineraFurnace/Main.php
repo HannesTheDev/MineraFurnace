@@ -54,7 +54,7 @@ class Main extends PluginBase
               $sender->sendMessage($prefix . "§7You've successfully smelt §aGold yorr §7to §aGold§7! (§a" . $item->getCount() . "x§7)");
             } elseif ($item->getId() == ITEM::LAPIS_LAZULI_ORE) {
               $sender->getInventory()->setItemInHand(Item::get(ITEM::LAPIS_LAZULI, 0, $item->getCount()));
-              $sender->sendMessage($prefix . "§7You've successfully smelt §aLapis Ore §7to §aLapis§7! (§a" . $item->getCount() . "x§7)");
+              $sender->sendMessage($prefix . "§7You've successfully smelt §aLapis Lazuli Ore §7to §aLapis Lazuli§7! (§a" . $item->getCount() . "x§7)");
             } elseif ($item->getId() == ITEM::DIAMOND_ORE) {
               $sender->getInventory()->setItemInHand(Item::get(ITEM::DIAMOND, 0, $item->getCount()));
               $sender->sendMessage($prefix . "§7You've successfully smelt §aDiamond Ore §7to §aDiamond§7! (§a" . $item->getCount() . "x§7)");
