@@ -13,16 +13,6 @@ use pocketmine\item\Item;
 class Main extends PluginBase
 {
   
-  public function onLoad()
-  {
-    $this->getLogger()->info(TF::GREEN . "Load Plugin...");
-  }
-  
-  public function onEnable()
-  {
-    $this->getLogger()->info(TF::GREEN . "Plugin activated!");
-  }
-  
   public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool
   {
     switch ($cmd->getName()) {
@@ -132,10 +122,5 @@ class Main extends PluginBase
         break;
     }
     return true;
-  }
-  
-  public function onDisable()
-  {
-    $this->getLogger()->info(TF::GREEN . "Plugin deactivated!");
   }
 }
