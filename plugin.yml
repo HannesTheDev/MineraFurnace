@@ -7,5 +7,5 @@ description: "Cook, smelt, drie or bake an item in your hand"
 
 commands:
   furnace:
-    permission: "minera.furnace.command"
+    permission: "furnace.command"
     description: "Cook, smelt, drie or bake a item in your hand"
