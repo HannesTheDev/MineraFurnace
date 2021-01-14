@@ -18,7 +18,7 @@ class Main extends PluginBase
     switch ($cmd->getName()) {
       case "furnace":
         $prefix = "§8[§6§lMinera§r§8] §r";
-        if ($sender->hasPermission("minera.furnace.command")) {
+        if ($sender->hasPermission("furnace.command")) {
           if ($sender instanceof Player) {
             $item = $sender->getInventory()->getItemInHand();
             if ($item->getId() == ITEM::COBBLESTONE) {
