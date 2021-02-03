@@ -27,7 +27,7 @@ class Main extends PluginBase
             } elseif ($item->getId() == ITEM::SAND) {
               $sender->getInventory()->setItemInHand(Item::get(ITEM::GLASS, 0, $item->getCount()));
               $sender->sendMessage($prefix . "§7You've successfully smelt §aSand §7to §aGlass§7! (§a" . $item->getCount() . "x§7)");
-            } elseif ($item == Item::get(19, 1)) {
+            } elseif ($item->getId() == 19 and $item->getDamage() == 1) {
               $sender->getInventory()->setItemInHand(Item::get(ITEM::SPONGE, 0, $item->getCount()));
               $sender->sendMessage($prefix . "§7You've successfully dried §aWet Sponge §7to §aSponge§7! (§a" . $item->getCount() . "x§7)");
             } elseif ($item->getId() == ITEM::SAND) {
@@ -42,7 +42,7 @@ class Main extends PluginBase
             } elseif ($item->getId() == ITEM::GOLD_ORE) {
               $sender->getInventory()->setItemInHand(Item::get(ITEM::GOLD_INGOT, 0, $item->getCount()));
               $sender->sendMessage($prefix . "§7You've successfully smelt §aGold Ore §7to §aGold§7! (§a" . $item->getCount() . "x§7)");
-            } elseif ($item->getId() == "21") {
+            } elseif ($item->getId() == 21) {
               $sender->getInventory()->setItemInHand(Item::get(351, 4, $item->getCount()));
               $sender->sendMessage($prefix . "§7You've successfully smelt §aLapis Lazuli Ore §7to §aLapis Lazuli§7! (§a" . $item->getCount() . "x§7)");
             } elseif ($item->getId() == ITEM::DIAMOND_ORE) {
@@ -57,22 +57,22 @@ class Main extends PluginBase
             } elseif ($item->getId() == ITEM::QUARTZ_ORE) {
               $sender->getInventory()->setItemInHand(Item::get(ITEM::QUARTZ, 0, $item->getCount()));
               $sender->sendMessage($prefix . "§7You've successfully smelt §aQuarz Ore §7to §aQuarz§7! (§a" . $item->getCount() . "x§7)");
-            } elseif ($item == Item::get(17)) {
+            } elseif ($item->getId() == 17) {
               $sender->getInventory()->setItemInHand(Item::get(263, 1, $item->getCount()));
               $sender->sendMessage($prefix . "§7You've successfully smelt §aOak Wood §7to §aCharcoal§7! (§a" . $item->getCount() . "x§7)");
-            } elseif ($item == Item::get(17, 1)) {
+            } elseif ($item->getId() == 17 and $item->getDamage() == 1) {
               $sender->getInventory()->setItemInHand(Item::get(263, 1, $item->getCount()));
               $sender->sendMessage($prefix . "§7You've successfully smelt §aSpruce Wood §7to §aCharcoal§7! (§a" . $item->getCount() . "x§7)");
-            } elseif ($item == Item::get(17, 2)) {
+            } elseif ($item->getId() == 17 and $item->getDamage() == 2) {
               $sender->getInventory()->setItemInHand(Item::get(263, 1, $item->getCount()));
               $sender->sendMessage($prefix . "§7You've successfully smelt §aBirch Wood §7to §aCharcoal§7! (§a" . $item->getCount() . "x§7)");
-            } elseif ($item == Item::get(17, 3)) {
+            } elseif ($item->getId() == 17 and $item->getDamage() == 3) {
               $sender->getInventory()->setItemInHand(Item::get(263, 1, $item->getCount()));
               $sender->sendMessage($prefix . "§7You've successfully smelt §aJungle Wood §7to §aCharcoal§7! (§a" . $item->getCount() . "x§7)");
-            } elseif ($item == Item::get(162)) {
+            } elseif ($item->getId() == 162) {
               $sender->getInventory()->setItemInHand(Item::get(263, 1, $item->getCount()));
               $sender->sendMessage($prefix . "§7You've successfully smelt §aAcacia Wood §7to §aCharcoal§7! (§a" . $item->getCount() . "x§7)");
-            } elseif ($item == Item::get(162, 1)) {
+            } elseif ($item->getId() == 162 and $item->getDamage() == 1) {
               $sender->getInventory()->setItemInHand(Item::get(263, 1, $item->getCount()));
               $sender->sendMessage($prefix . "§7You've successfully smelt §aDark Oak Wood §7to §aCharcoa§7! (§a" . $item->getCount() . "x§7)");
             } elseif ($item->getId() == ITEM::RAW_BEEF) {
