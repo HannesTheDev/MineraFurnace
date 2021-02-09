@@ -58,9 +58,6 @@ class Main extends PluginBase
               $sender->getInventory()->setItemInHand(Item::get(ITEM::QUARTZ, 0, $item->getCount()));
               $sender->sendMessage($prefix . "§7You've successfully smelt §aQuarz Ore §7to §aQuarz§7! (§a" . $item->getCount() . "x§7)");
             } elseif ($item->getId() === 17) {
-              $sender->getInventory()->setItemInHand(Item::get(263, 1, $item->getCount()));
-              $sender->sendMessage($prefix . "§7You've successfully smelt §aOak Wood §7to §aCharcoal§7! (§a" . $item->getCount() . "x§7)");
-            } elseif ($item->getId() === 17) {
               if ($item->getDamage() === 1) {
                 $sender->getInventory()->setItemInHand(Item::get(263, 1, $item->getCount()));
                 $sender->sendMessage($prefix . "§7You've successfully smelt §aSpruce Wood §7to §aCharcoal§7! (§a" . $item->getCount() . "x§7)");
@@ -70,6 +67,9 @@ class Main extends PluginBase
               } elseif ($item->getDamage() === 3) {
                 $sender->getInventory()->setItemInHand(Item::get(263, 1, $item->getCount()));
                 $sender->sendMessage($prefix . "§7You've successfully smelt §aJungle Wood §7to §aCharcoal§7! (§a" . $item->getCount() . "x§7)");
+              } else {
+                $sender->getInventory()->setItemInHand(Item::get(263, 1, $item->getCount()));
+                $sender->sendMessage($prefix . "§7You've successfully smelt §aOak Wood §7to §aCharcoal§7! (§a" . $item->getCount() . "x§7)");
               }
             } elseif ($item->getId() === 162) {
               if ($item->getDamage() === 1) {
