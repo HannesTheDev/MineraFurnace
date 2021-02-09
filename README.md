@@ -1,5 +1,5 @@
 # MineraFurnace
-Cook, smelt, drie or bake an Item!
+Cook, smelt, drie or bake an Item with a simple Command!
 
 ## Commands
 Commands | Description | Default | Aliases | Permissions
