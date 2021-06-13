@@ -1,16 +1,18 @@
-# MineraFurnace
-Cook, smelt, drie or bake an Item with a simple Command!
+[![](https://poggit.pmmp.io/shield.dl.total/MineraFurnace)](https://poggit.pmmp.io/p/MineraFurnace) [![Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/HVvQv2TxWs)
+
+# MineraFurnace 
+Are you tired of farming coal or needing an oven to smelt, cook, dry or anything else? Then this plugin is just right. Cook, smelt, drie or bake with a simple command.
 
 ## Commands
 Commands | Description | Default | Aliases | Permissions
 --------- | ------------------- | ------- | ---------- | -----------
-/furnace | Cook, smelt, drie or bake an item in your hand | op | none | minerafurnace.furnace.cmd
+``/furnace`` | ``Cook, smelt, drie or bake an item in your hand`` | ``op`` | ``none`` | ``minerafurnace.furnace.cmd``
+
+## Picture
+<img src="https://github.com/HannesTheDev/MineraFurnace/blob/main/minerafurnace.png"></img> <br>
 
 ## License
 This Plugin is Licensed under the [GNU GENERAL PUBLIC LICENSE Version 3](\LICENSE) License!
-
-## Soon
-[ ] Language with switch in settings
 
 ## Supported Items
 - Cobblestone
@@ -40,6 +42,9 @@ This Plugin is Licensed under the [GNU GENERAL PUBLIC LICENSE Version 3](\LICENS
 - Potatoe
 - Kelp
 - Clay Ball
+
+## Languages
+The Messages can be edit in the config.
 
 ## Others
 This Plugin only based on my idea. If you copy it or you give at as yours, you'll punished!
