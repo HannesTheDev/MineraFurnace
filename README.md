@@ -8,9 +8,6 @@ Commands | Description | Default | Aliases | Permissions
 --------- | ------------------- | ------- | ---------- | -----------
 ``/furnace`` | ``Cook, smelt, drie or bake an item in your hand`` | ``op`` | ``none`` | ``minerafurnace.furnace.cmd``
 
-## Picture
-<img src="https://github.com/HannesTheDev/MineraFurnace/blob/main/minerafurnace.png"></img> <br>
-
 ## License
 This Plugin is Licensed under the [GNU GENERAL PUBLIC LICENSE Version 3](\LICENSE) License!
 
