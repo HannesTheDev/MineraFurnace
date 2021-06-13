@@ -1,6 +1,6 @@
 name: MineraFurnace
 main: HannesTheDev\MineraFurnace\Main
-version: 1.0.0
+version: 2.0.0
 api: 3.0.0
 author: HannesTheDev
 description: "Cook, smelt, drie or bake an item in your hand"
